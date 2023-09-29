@@ -1,0 +1,9 @@
+trigger:
+- main  # Replace 'main' with the branch you want to trigger the pipeline on
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo 'Hello, Azure DevOps!'
+  displayName: 'Print a Message'
